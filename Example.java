@@ -27,12 +27,12 @@ public class Example {
         C1 o1 = new C1();
         C2 o2 = new C2();
 
-        System.out.printf("o1.m1=%d\n", o1.m1());
-        System.out.printf("o2.m1=%d\n", o2.m1());
+        System.out.println(o1.m1());
+        System.out.println(o2.m1());
 
-        System.out.printf("o2.m3=%d\n", o2.m3()); // ???
-        System.out.printf("o2.m2=%d\n", o2.m2()); // ???
+        System.out.println(o2.m3()); // ???
+        System.out.println(o2.m2()); // ???
     }
-
-
 }
+
+
